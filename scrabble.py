@@ -103,7 +103,7 @@ def probability_of_all(word_length, number_to_display):
 
 if __name__ == "__main__":
     word_to_check = input("Word to check: ").upper()
-    probability_to_check = "".join(word_to_check)
+    probability_to_check = "".join(sorted(word_to_check))
     if not is_valid(word_to_check):
         print("This is not a valid Scrabble word.")
     else:
