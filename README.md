@@ -1,2 +1,4 @@
 # scrabble_tools
-A script to check the validity of a Scrabble word and display probabilities. Currently the probabilities and probability ranked list is only accurate with 7-letter words. I'm working on fixing this.
+A script to check the validity of a Scrabble word and display probabilities. Currently the probabilities and probability ranked list is only accurate with 7-letter words.
+
+The script uses the NSWL2020 wordlist, but you can replace it with any other wordlist.
